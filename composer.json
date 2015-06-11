@@ -1,0 +1,33 @@
+{
+    "name": "spatie/laravel4-googletagmanager",
+    "description": "Google Tag Manager integration for Laravel 4",
+    "keywords": [
+        "spatie",
+        "laravel-googletagmanager",
+        "laravel",
+        "google tag manager"
+    ],
+    "homepage": "https://github.com/spatie/laravel-googletagmanager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian De Deyne",
+            "email": "sebastian@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\GoogleTagManager\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
