@@ -1,10 +1,9 @@
 # Google Tag Manager integration for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-googletagmanager)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel4-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel4-googletagmanager)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-googletagmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-googletagmanager)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/46932ea6-5df3-4dca-8342-461b4d3db3a7.svg?style=flat-square)](https://insight.sensiolabs.com/projects/46932ea6-5df3-4dca-8342-461b4d3db3a7)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-googletagmanager)
+[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel4-googletagmanager.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel4-googletagmanager)
+[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel4-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel4-googletagmanager)
 
 An easy [Google Tag Manager](http://www.google.com/tagmanager/) implementation for your Laravel 4 application.
 
@@ -23,7 +22,7 @@ You'll also need a Google Tag Manager ID, which you can retrieve by [signing up]
 You can install the package via Composer:
 
 ```bash
-$ composer require spatie/laravel-googletagmanager
+$ composer require spatie/laravel4-googletagmanager
 ```
 
 Start by registering the package's the service provider and facade:
@@ -48,14 +47,14 @@ Next, publish the config files:
 
 ```bash
 // L4
-$ php artisan config:publish spatie/googletagmanager --path="vendor/spatie/laravel-googletagmanager/resources/config"
+$ php artisan config:publish spatie/googletagmanager --path="vendor/spatie/laravel4-googletagmanager/resources/config"
 ```
 
 Optionally publish the view files. It's **not** recommended to do this unless necessary so your views stay up-to-date in future package releases.
 
 ```bash
 // L4
-$ php artisan views:publish spatie/googletagmanager --path="vendor/spatie/laravel-googletagmanager/resources/views"
+$ php artisan views:publish spatie/googletagmanager --path="vendor/spatie/laravel4-googletagmanager/resources/views"
 ```
 
 ## Configuration
