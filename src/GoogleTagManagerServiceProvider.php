@@ -11,7 +11,7 @@ class GoogleTagManagerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('spatie/googletagmanager', null, __DIR__.'/../../resources');
+        $this->package('spatie/googletagmanager', null, __DIR__.'/../resources');
 
         $this->app['view']->creator(
             ['googletagmanager::script'],
