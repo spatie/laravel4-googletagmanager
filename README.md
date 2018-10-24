@@ -1,3 +1,5 @@
+**THIS PACKAGE HAS BEEN ABANDONED**
+
 # Google Tag Manager integration for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel4-googletagmanager.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel4-googletagmanager)
